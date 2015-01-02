@@ -1,0 +1,40 @@
+phpstorm hints:
+
+- install "live edit" plugin and "jetbrains" extension for chromež
+- install "key promoter" plugin
+- you can "pin" tab over context menu and choosing "add to pin tab"
+- Ctrl+F4 to close active tab
+- Ctrl + Tab to switch between tabs
+- context menu for "favorites"
+- F11 for bookmarks, Shift + F11 to navigate between bookmarks
+- Ctrl + N navigate to Class
+- Ctrl + Shift + N navigate to File
+
+- Alt + Insert create new class, activating inside class context menu
+- Alt + Enter for context menu on fields, classes, comments and so on, also for errors we have context menu for solutions(called "quick fixes"),
+  also used for importing classes
+
+- Alt + 6 show TODO window
+- Ctrl + E open recent files
+- Alt + Home for navigation bar
+- Alt + Shift + N list of tasks
+- Ctrl + Alt + S file watchers
+- Ctrl + Alt + M extract method refactoring
+- Shift + F6 global rename
+- Ctrl + F6 signature refactoring
+- Ctrl + Alt + T code surrounding
+- Ctrl + Shift + T go to test
+- Ctrl + Alt + J live templates surround with
+- Ctrl + Alt + O optimize imports
+- Ctrl + Alt + S main screen
+- Ctrl + F8 toggle breakpoint
+- Shift + F9 run debugger
+- Ctrl + Shift + F9 conditional breakpoints
+- F2 change value in debugging mode
+- prisf -> private static function
+
+
+  !isset(NULL) === empty(NULL) (http://php.net/manual/en/types.comparisons.php)
+  - isset — Determine if a variable is set and is not NULL
+  - ISSET checks the variable to see if it has been set, in other words, it checks to see if the variable is any value except NULL or not assigned a value. ISSET returns TRUE if the variable exists and has a value other than NULL. That means variables assigned a " ", 0, "0", or FALSE are set, and therefore are TRUE for ISSET.
+  - EMPTY checks to see if a variable is empty. Empty is interpreted as: " " (an empty string), 0 (0 as an integer), 0.0 (0 as a float), "0" (0 as a string), NULL, FALSE, array() (an empty array), and "$var;" (a variable declared, but without a value in a class.

@@ -7,9 +7,6 @@ class PagesController extends \BaseController {
 
     use CommanderTrait;
 
-
-
-
     /**
 	 * Display a listing of the resource.
 	 *
@@ -29,7 +26,6 @@ class PagesController extends \BaseController {
 	{
         //PHP 5.5 required
         //$this->execute(UserUploadCommand::class,Input::only('file', 'email'), ['Westwing\User\UserUploadSanitizer']);
-
 
         //php 5.4 or below
         $user = $this->execute('Westwing\User\UserUploadCommand',
